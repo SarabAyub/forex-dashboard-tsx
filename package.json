@@ -1,0 +1,48 @@
+{
+  "name": "forex-dashboard-tsx",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.2.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "cra-template-typescript": "1.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-financial-charts": "^2.0.1",
+    "react-idle-timer": "^5.7.2",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/d3-time-format": "^4.0.3",
+    "@types/react-dom": "^19.0.2"
+  }
+}
